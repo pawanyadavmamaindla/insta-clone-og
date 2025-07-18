@@ -28,11 +28,11 @@ app.use(require('./routes/user'))
 app.get('/',(req,res)=>{
     res.send("hello")
 })
-    app.use(express.static('client/build'))
-    const path = require('path');
-    app.get("*",(req,res)=>{
-        res.sendFile(path.resolve(__dirname,'client','build','index.html'))
-    })
+    // app.use(express.static('client/build'))
+    // const path = require('path');
+    // app.get("*",(req,res)=>{
+    //     res.sendFile(path.resolve(__dirname,'client','build','index.html'))
+    // })
 
 
 app.listen(PORT,()=>{
