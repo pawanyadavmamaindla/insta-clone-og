@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://insta-clone-og.onrender.com",
+  "proxy": "https://insta-clone-a7xa7wc7x-ms-projects-2ef516c3.vercel.app",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
